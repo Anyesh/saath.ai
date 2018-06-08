@@ -84,6 +84,7 @@ const Layout = ({ children, data }) => (
         width: '100%',
         height: '100%',
         position: 'absolute',
+        filter: ' blur(1.5px)',
       }}
     />
     <div>{children()}</div>

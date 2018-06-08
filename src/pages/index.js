@@ -26,7 +26,9 @@ class IndexPage extends React.Component {
         <div id="landing">
           <div id="landing-text" className="mx-auto">
             <div id="landing-text-inner" style={{ position: 'relative' }}>
-              <h1>saath ai</h1>
+              <h1 style={{ textShadow: '2px 2px rgb(213, 172, 202)' }}>
+                saath ai
+              </h1>
               <hr />
               <h2>
                 ~$ building <code>AI Solutions /></code>
