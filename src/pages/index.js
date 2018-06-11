@@ -37,10 +37,7 @@ class IndexPage extends React.Component {
 
               <h3 className="_typed">
                 <Typed
-                  strings={[
-                    'Artificial Intellegence is for everyone ',
-                    'And we make it available to the world',
-                  ]}
+                  strings={['AI is for everyone ', 'And we make it available']}
                   typeSpeed={40}
                   backSpeed={50}
                   loop

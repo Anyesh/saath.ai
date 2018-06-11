@@ -56,7 +56,7 @@ h2 {
 
 #landing-text {
   display: flex;
-  flex: 0 1 40vw;
+  flex: 0 1 50vw;
   height: 100vh;
   justify-content: center;
   align-items: center;
