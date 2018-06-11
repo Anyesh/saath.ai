@@ -29,19 +29,24 @@ class IndexPage extends React.Component {
               <h1 style={{ textShadow: '2px 2px rgb(208, 199, 207) ' }}>
                 saath <code>AI</code>
               </h1>
-              <hr />
+              <hr className="type_2" />
               <h2>
-                ~$ building <code>AI Solutions /></code>
+                Providing <code>AI as a Service</code>
               </h2>
-              <hr />
-              <h2>
+              <hr className="styled" />
+
+              <h3 className="_typed">
                 <Typed
-                  strings={['to make blaa blaa blaa', 'and yes this is a test']}
+                  strings={[
+                    'Artificial Intellegence is for everyone ',
+                    'And we make it available to the world',
+                  ]}
                   typeSpeed={40}
                   backSpeed={50}
                   loop
+                  smartBackSpace
                 />
-              </h2>
+              </h3>
               <a href="#about" id="view-work">
                 <Drop
                   size={65}

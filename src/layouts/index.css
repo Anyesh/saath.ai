@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
-@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
 
 body {
-  font-family: 'Roboto Slab', serif !important;
+  font-family: 'Montserrat', sans-serif !important;
   background: #eee;
   height: auto;
+}
+
+code {
+  color: #45a7e9ec;
 }
 
 a {
@@ -24,13 +28,18 @@ h1 {
   color: #ec0000ec; */
 }
 
+.curve {
+  font-family: 'Cedarville Cursive', cursive;
+}
+
 #header {
   padding: 10px;
 }
 
 h2 {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Cedarville Cursive', cursive;
   text-align: center;
+  font-size: 30px;
   color: #888;
 }
 
@@ -72,7 +81,7 @@ footer h3 {
   margin-bottom: 0;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 750px) {
   h1 {
     font-size: 180px;
   }
@@ -107,25 +116,15 @@ footer h3 {
   padding: 10px;
 }
 
-.navbar.navbar-fixed-top.fixed-theme {
-  background-color: #222;
-  border-color: #080808;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+hr.type_2 {
+  border: 0;
+  height: 55px;
+  background-image: url(type_4.png);
+  background-repeat: no-repeat;
 }
 
-.navbar-brand.fixed-theme {
-  font-size: 18px;
-}
-
-.navbar-container.fixed-theme {
-  padding: 0;
-}
-
-.navbar-brand.fixed-theme,
-.navbar-container.fixed-theme,
-.navbar.navbar-fixed-top.fixed-theme,
-.navbar-brand,
-.navbar-container {
-  transition: 0.8s;
-  -webkit-transition: 0.8s;
+h3._typed {
+  /* font-family: 'Satisfy', cursive; */
+  color: #888;
+  font-size: 23px;
 }

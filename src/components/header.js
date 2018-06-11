@@ -34,7 +34,7 @@ class NavBar extends React.Component {
         <Navbar color="light" light expand="md">
           <div className="container">
             <Link to="/" className="navbar-brand">
-              SAATHAI
+              SAATH | <span style={{ color: '#45a7e9ec' }}>AI</span>
             </Link>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>

@@ -46,7 +46,7 @@ const Layout = ({ children, data }) => (
           },
 
           size: {
-            value: 4,
+            value: 7,
             random: true,
             anim: {
               enable: false,
@@ -59,7 +59,7 @@ const Layout = ({ children, data }) => (
             enable: true,
             distance: 150,
             color: '#000000',
-            opacity: 0.4,
+            opacity: 0.5,
             width: 1,
           },
           move: {
@@ -69,7 +69,7 @@ const Layout = ({ children, data }) => (
             random: false,
             straight: false,
             out_mode: 'out',
-            bounce: false,
+            bounce: true,
             attract: {
               enable: false,
               rotateX: 600,
